@@ -5,23 +5,26 @@ log-level: info
 external-controller: 127.0.0.1:9090
 
 proxies:
-  - {name: "🌍CF-01", server: 172.64.229.118, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-02", server: 172.64.144.224, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-03", server: 104.18.35.200, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-04", server: 172.64.147.67, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-05", server: 104.18.40.77, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-06", server: 172.64.147.110, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-07", server: 104.18.43.220, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-08", server: 172.64.155.159, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-09", server: 104.18.40.189, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-10", server: 104.18.44.47, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-11", server: 162.159.128.253, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-12", server: 162.159.129.74, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-13", server: 162.159.140.85, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-14", server: 172.64.67.117, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-15", server: 104.31.16.158, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-16", server: 173.245.49.194, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
-  - {name: "🌍CF-17", server: 162.159.236.194, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-01", server: 172.64.229.223, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-02", server: 172.64.229.7, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-03", server: 172.64.229.31, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-04", server: 104.18.32.53, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-05", server: 104.18.44.214, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-06", server: 172.64.153.184, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-07", server: 104.18.45.170, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-08", server: 104.18.44.205, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-09", server: 104.18.40.159, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-10", server: 104.18.44.151, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-11", server: 188.164.248.18, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-12", server: 172.64.154.33, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-13", server: 104.18.39.75, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-14", server: 104.18.42.50, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-15", server: 172.64.150.22, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-16", server: 104.18.40.189, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-17", server: 188.164.248.143, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-18", server: 172.64.154.204, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-19", server: 104.18.43.111, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
+  - {name: "🌍CF-20", server: 172.64.156.226, port: 443, type: vless, uuid: 98b64028-ee90-44bd-8634-6b4053bfae01, tls: true, skip-cert-verify: false, servername: edt.cwq2.cc.cd, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: edt.cwq2.cc.cd}}}
 
 proxy-groups:
   - name: "🚀 小蜜蜂自建"
@@ -45,6 +48,9 @@ proxy-groups:
       - "🌍CF-15"
       - "🌍CF-16"
       - "🌍CF-17"
+      - "🌍CF-18"
+      - "🌍CF-19"
+      - "🌍CF-20"
   - name: "♻️ 自动选择"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -68,6 +74,9 @@ proxy-groups:
       - "🌍CF-15"
       - "🌍CF-16"
       - "🌍CF-17"
+      - "🌍CF-18"
+      - "🌍CF-19"
+      - "🌍CF-20"
 
 rules:
   - GEOIP,CN,DIRECT
